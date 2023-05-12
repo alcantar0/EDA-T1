@@ -109,9 +109,8 @@ int main(){
         vector[i] = rand() % 1000; 
     }
     
-   heapsort(vector, size);
-   print_heap(vector, size);
-
+    heapsort(vector, size);
+    print_heap(vector, size);
 
     return 0;
 }
